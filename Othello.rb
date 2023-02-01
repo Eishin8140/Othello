@@ -1060,7 +1060,7 @@ board = Board.new
 
 # 盤を初期化
 board.init
-# loopの実行（コメントは後で外す）
+# loopの実行
 canvas = board.makeWindow
 board.drawAllDisks(canvas)
 Tk.mainloop
